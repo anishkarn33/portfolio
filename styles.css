@@ -91,9 +91,20 @@
 @media (max-width: 576px) {
   .hero-text {
     position: absolute;
-    right: 5%;
-    bottom: 15%;
+    right: 0%;
+    bottom: 5%;
+    left: 0%;
     color: rgb(13, 13, 13);
+    text-align: center;
+  }
+  .bgimage {
+    background-position: left
+  }
+  .hero_title {
+    font-size: 3rem;
+  }
+  .hero_desc {
+    font-size: 1.5rem;
   }
 }
 
@@ -104,11 +115,14 @@
     bottom: 15%;
     color: rgb(13, 13, 13);
   }
-} */
+  .bgimage {
+    background-position: left
+  }
+}
 
 
 /* about section image css */
-.imageAboutPage {
+.img-about-me {
   width: 100%;
   border-radius: 10%;
 }
