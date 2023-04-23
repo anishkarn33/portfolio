@@ -19,9 +19,9 @@
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.4)
     ),
-    url("/images/landscape_me.jpg");
+    url("/images/ritika.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
 }
 /* text css above hero image*/
